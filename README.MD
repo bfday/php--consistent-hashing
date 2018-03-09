@@ -17,9 +17,6 @@ Calculated using internal test (so u can repeat) at one core:
 ```
 2018-03-09T22:20:27+03:00 Array
 (
-    [$slotCount] => 100000
-    [$nodesCount] => 200
-    [$emulateObjects] => 1000000
     [$nodesStats (node name->objects count)] => Array
         (
             [node_0001] => 4935
@@ -224,6 +221,9 @@ Calculated using internal test (so u can repeat) at one core:
             [node_0200] => 4975
         )
 
+    [$slotsCount] => 100000
+    [$nodesCount] => 200
+    [$emulateObjects] => 1000000
     [min objects quantity per node] => 4829
     [max objects quantity per node] => 5173
     [memory_usage bytes] => 4 836 036 608
